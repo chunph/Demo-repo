@@ -1,0 +1,39 @@
+<%@ page pageEncoding="utf-8"%>
+<div class="header">
+    <div class="row" id="headerRow">
+        <!-- This is section for Logo image -->
+        <div class="col-xs-3">
+            <a href="${pageContext.request.contextPath}/home"><img id="logoImageHeader" src="img\The-Forum-Logo.png"
+                    alt="LogoImage"></a>
+        </div>
+        <!-- This is for header title -->
+        <div class="col-xs-6" id="header">
+            <a href="${pageContext.request.contextPath}/home">
+                <h1>FORUM OF DEVELOPERS</h1>
+            </a>
+        </div>
+        <!-- This is for some button -->
+        <div class="col-xs-3">
+            <ul id="listButton" style="list-style-type: none">
+                <li>
+                    <a href="${pageContext.request.contextPath}/login">Sign In</a>
+                </li>
+                <li>
+                    <a href="${pageContext.request.contextPath}/register">Sign Up</a>
+                </li>
+                <li>
+                    <a href="">Help</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- This is search bar -->
+    <div class="row" id="searchRow">
+        <div class="col-xs-12">
+            <div id="formSearch">
+                <input id="searchInput" type="text" placeholder="Search...">
+                <button id="searchButton"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
